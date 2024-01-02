@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">luxo</a></li>
+                <li><a href="#">conversível</a></li>
+                <li><a href="#">Svu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="slider">
+            <div class="slider--controls">
+                <div class="slider--control left" onclick="goPrev()">
+                    <img src="images/button.png" alt="">
+                </div>
+                <div class="slider--control" onclick="goNext()">
+                    <img src="images/button.png" alt="">
+                </div>                   
+            </div>
+            <div class="slider--images">
+                <div class="slider--item" style="background-image: url('./images/3.jpg')"></div>
+                <div class="slider--item" style="background-image: url('./images/2.jpg')"></div>
+                <div class="slider--item" style="background-image: url('./images/1.jpg')"></div>
+                <div class="slider--item" style="background-image: url('./images/6.png')"></div>
+                <div class="slider--item" style="background-image: url('./images/4.png')"></div>
+                <div class="slider--item" style="background-image: url('./images/5.png')"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
